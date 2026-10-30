@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+   
+}
+body{
+     background-color: #dddddd;
 }
 
 .menuicon i{
@@ -16,8 +20,9 @@
 header{
     max-width: 100%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    background-color: rgba(187, 187, 187, 0.233);
-    color: rgb(0, 0, 0);
+
+    background-color: #094256;
+  color: white;
     min-height: 50px;
     position: fixed;
     top: 0;
@@ -31,7 +36,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 20px 40px;
      font-weight: bold;
 }
 
@@ -41,7 +46,7 @@ nav {
 }
 
 nav a {
-     color: rgb(0, 0, 0);
+      color: white;
     text-decoration: none;
     text-transform: uppercase;
    
@@ -50,8 +55,8 @@ nav a {
 
 
 nav a:hover{
-color: #083c4f;
-transition: all ease 0.8s;
+color: #032828;
+transition: all ease 0.3s;
 text-decoration: underline;
 }
 
@@ -109,13 +114,201 @@ text-decoration: underline;
     font-weight: bold;
   }
 
-
-
-
   .img-01{
     height: 100%;
     width: 100%;
   }
+
+/* ========================================= 2nd=====SECTION ================================== */
+
+.headpara{
+    background-color: #b5d1d9;
+    margin-top: 2em;
+}
+
+
+.cardparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 3em;
+    
+}
+
+.cardchild{
+    width: 300px;
+    height: 455px;
+    background-color: rgb(209, 209, 209);
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+.cardimg{
+width: 100%;
+height: 250px;
+}
+
+.starbox{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.head{
+    margin-top: 2em;
+    font-weight: bold;
+}
+
+.headsix{
+   margin-top: 2.5em;
+    font-weight: bold; 
+}
+
+.persantage{
+    display: flex;
+   gap: 15px;
+    margin-top: 1.5em;
+
+    
+}
+.bttn1{
+    width: 100%;
+    margin-top: 2em;
+}
+
+/* 3rd section  =====================================================*/
+
+
+.thirdsection {
+    background: url(https://i.pinimg.com/1200x/1c/2f/6c/1c2f6cf5862eff572bd47dabddf05707.jpg) center center / cover no-repeat fixed;
+
+    height: 430px;
+    width: 100%;
+  
+}
+
+.numbersbox{
+    display: flex;
+    gap: 20px; justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.numberchild{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+  
+    padding: 20px 10px;
+    color: white;
+   
+}
+.fontem{
+    font-size: 3em;
+    
+}
+
+.paraheadsection h1{
+font-size: 2.5em;
+text-transform: uppercase;
+margin-top: 2em;
+text-align: center;
+padding: 10px 10px;
+}
+
+
+
+.colrchange{
+    color: #094256;
+}
+
+
+/* 5th section csss ================================================== */
+
+
+.herobg{
+    background-color: #094256;
+  
+}
+.res{
+   display: flex;
+    flex-direction: row-reverse;
+}
+.exbtn{
+     background-color: #398194;
+}
+
+.imgchnage{
+    height: 300px;
+    background: url(https://i.pinimg.com/1200x/1c/2f/6c/1c2f6cf5862eff572bd47dabddf05707.jpg) center center / cover no-repeat fixed;
+}
+
+.parabox {
+    display: flex;
+    margin-top: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+
+/* GALLERY SECTION START ================================================= */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ gap: 10px;
+ margin-top: 3em;
+}
+
+.parentgall{
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.child1 {
+  clip-path: polygon(
+    30% 0%, 70% 0%, 100% 30%, 100% 70%,
+    70% 100%, 30% 100%, 0% 70%, 0% 30%
+  );
+  height: 200px;
+  width: 200px;
+  flex-shrink: 0;
+  background-color: rgb(4, 59, 59);
+  border-style: groove;
+  border-width: 5px;
+  border-color: #000000;
+ 
+  
+  
+}
+
+.child1 .imgone{
+transition: transform 0.3s ease;
+}
+
+.child1:hover .imgone {
+  transform: scale(1.1);
+  
+}
+
+
+
+
+
+
+
+
+
 
 
 /* TABLET =================================================*/
@@ -126,6 +319,7 @@ text-decoration: underline;
         gap: 10px;
         padding: 100px 30px 40px;
     }
+   
 
     .herochild {
         width: 100%;
@@ -142,6 +336,15 @@ text-decoration: underline;
         width: 80%;
         height: auto;
         margin-top: 0;
+    }
+
+      .cardparent{
+        
+        flex-direction: column;
+    }
+    .cardchild{
+        width: 100%;
+        
     }
 }
 
@@ -179,6 +382,7 @@ text-decoration: underline;
    .menuicon:hover + nav {
         display: flex;
     }
+
 
     
    
@@ -241,6 +445,14 @@ text-decoration: underline;
         height: auto;
         margin: 0 auto;
     }
+
+    .thirdsection{
+        height: auto;
+    }
+.numbersbox{
+    flex-direction: column;
+}
+  
 }
 
 /*480px ============================================ */
@@ -253,7 +465,15 @@ text-decoration: underline;
         font-size: 1.9rem;
         line-height: 1.25;
     }
+    .heading1{
+        font-size: 1.9rem !important;
+        line-height: 1.25 !important;
+    }  
 
+    .paraheadsection h1{
+        font-size: 1.9rem;
+        line-height: 1.25;
+    }
     .herochild {
         padding: 8px 0;
     }
