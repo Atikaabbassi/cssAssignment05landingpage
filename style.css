@@ -478,7 +478,7 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
 
 .lastbox{
     width: 100%;
-    height: 50px;
+    min-height: 50px;
     color: white;
     background-color: #060606;
     text-align: center;
