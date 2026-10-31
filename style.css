@@ -6,6 +6,31 @@
     scroll-behavior: smooth;
 }
 
+.top-icon i{
+    font-size: 1.5em;
+}
+.top-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    width: 50px;
+    height: 50px;
+
+  background-color: #293f5b;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 25px;
+
+    z-index: 999;
+}
 body{
     background-color: #F5F2EC;
 }
@@ -20,7 +45,7 @@ body{
 header{
     max-width: 100%;
     box-shadow: rgba(16, 28, 44, 0.066) 0px 2px 8px 0px;
-    background-color: #D6AE70 !important;
+   background-color: #293f5b;
     color: #FFFFFF;
     min-height: 50px;
     position: fixed;
@@ -32,7 +57,7 @@ header{
 
 .logo{
     color: #f8f4f4;
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: serif;
    
 }
@@ -43,7 +68,7 @@ header{
        color: #060606;
     text-shadow:
         2px 2px 0px #ffffff33,
-        4px 4px 0px #B18B6A,
+        4px 4px 0px #b18b6a04,
         6px 6px 10px rgba(16, 42, 67, 0.091);
 }
 
@@ -429,7 +454,7 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
 
 .footer-box a::before {
     content: "❯ ";
-    color: #65c72e;
+    color: #B18A4E;
 
 }
 
@@ -439,7 +464,7 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
 }
 
 .footer-box a:hover {
-    color: #65c72e;
+    color: #B18A4E;
     transform: translateX(10px);
 
 }
