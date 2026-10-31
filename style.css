@@ -40,6 +40,8 @@ body{
     position: fixed;
     right: 0;
     font-size: 2em;
+     color: white !important;
+   
 }
 
 header{
@@ -64,12 +66,13 @@ header{
    
 
 .ex{
-    font-size: 1.3em;
-       color: #060606;
+    font-size: 2em;
+       color: #fefdfd;
     text-shadow:
         2px 2px 0px #ffffff33,
-        4px 4px 0px #b18b6a04,
-        6px 6px 10px rgba(16, 42, 67, 0.091);
+        4px 4px 0px #0e0e0e4e,
+        6px 6px 10px rgba(254, 255, 255, 0.091);
+        
 }
 
 
@@ -97,8 +100,9 @@ nav a {
 }
 
 nav a:hover{
-    color: #000000;
-    transition: all ease 0.5s;
+  color: #B18A4E;
+    transition: all ease 0.8s;
+    text-decoration: underline;
 }
 
 /* HERO SECTION START */
@@ -133,8 +137,8 @@ nav a:hover{
 }
 
 .btn1{
-    background-color: #D6AE70 !important;
-    color: #101C2C;
+ background-color: #293f5b !important; 
+    color: #f8f9fa;
     height: 55px;
     width: 200px;
     border: none;
@@ -143,7 +147,7 @@ nav a:hover{
 }
 
 .btn1:hover{
-    border: 2px solid #D6AE70;
+    border: 2px solid #ffffff;
 }
 
 .btn2{
@@ -166,8 +170,9 @@ nav a:hover{
 /* 2nd SECTION */
 
 .headpara{
-    background-color: #F5F2EC;
+    background-color: #f8f7f7;
     margin-top: 2em;
+    padding: 10px 10px;
 }
 
 .cardparent{
@@ -182,7 +187,7 @@ nav a:hover{
 .cardchild{
     width: 300px;
     height: 455px;
-    background-color: #FFFFFF;
+    background-color: #9b9b9b;
     padding: 10px 10px;
     border-radius: 10px;
     box-shadow: rgba(16, 28, 44, 0.15) 0px 3px 8px;
@@ -248,7 +253,7 @@ nav a:hover{
 
 .fontem{
     font-size: 3em;
-    color: #D6AE70;
+    color: #f8fafc;
 }
 
 /* 4th SECTION */
@@ -263,7 +268,8 @@ nav a:hover{
 }
 
 .colrchange{
-    color: #B18A4E;
+    color: gray;
+    
 }
 
 /* 5th SECTION */
@@ -355,7 +361,7 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
     align-items: center;
 
     gap: 20px;
-    background-color: #B18A4E !important;
+       background-color: #293f5b !important; 
 }
 .blue{
     background-color: #101C2C !important;
@@ -387,7 +393,7 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
 }
 
 .form input::placeholder,.form textarea::placeholder {
-    color: #3d3d3d;
+    color: #f9f9f9;
     font-weight: bold;
     font-family: serif;
 }
@@ -697,8 +703,10 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
 
     .btn1,
     .btn2 {
-        width: 100%;
+        width: 80%;
         height: 50px;
+        margin: auto;
+        margin-top: 2em;
     }
     .footer{
         flex-direction: column;
