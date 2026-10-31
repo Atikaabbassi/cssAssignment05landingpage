@@ -461,6 +461,7 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
     font-family: serif;
     font-weight: bold;
     text-transform: capitalize;
+    padding: 10px 10px;
 
 }
 
@@ -485,7 +486,7 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
 
 @media (max-width: 1000px) {
     .parenthero {
-        flex-direction: column;
+       flex-direction: column-reverse;
         justify-content: center;
         gap: 10px;
         padding: 100px 30px 40px;
