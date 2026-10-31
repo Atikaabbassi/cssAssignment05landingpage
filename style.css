@@ -32,9 +32,21 @@ header{
 
 .logo{
     color: #f8f4f4;
-    font-size: 1em;
+    font-size: 1.3em;
     font-family: serif;
+   
 }
+   
+
+.ex{
+    font-size: 1.3em;
+       color: #060606;
+    text-shadow:
+        2px 2px 0px #ffffff33,
+        4px 4px 0px #B18B6A,
+        6px 6px 10px rgba(16, 42, 67, 0.091);
+}
+
 
 .header {
     display: flex;
@@ -42,11 +54,15 @@ header{
     align-items: center;
     padding: 20px 40px;
     font-weight: bold;
+    color: white;
 }
 
 nav {
     display: flex;
     gap: 40px;
+}
+.ex{
+
 }
 
 nav a {
@@ -56,7 +72,7 @@ nav a {
 }
 
 nav a:hover{
-    color: #D6AE70;
+    color: #000000;
     transition: all ease 0.5s;
 }
 
@@ -529,7 +545,7 @@ background: url(https://i.pinimg.com/1200x/9c/b4/9c/9cb49c33c083acde3ae53078a6cd
     .menuicon i {
         display: block;
         font-size: 2em;
-        color: #D6AE70;
+        color: #000000;
     }
 
     nav {
